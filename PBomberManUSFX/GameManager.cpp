@@ -123,7 +123,7 @@ int GameManager::onExecute() {
 			mm->setAlto(30);
 			mm->setAncho(30);
 
-			mm = nullptr
+			mm = nullptr;
 		}
 
 
