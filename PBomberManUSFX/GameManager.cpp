@@ -115,7 +115,16 @@ int GameManager::onExecute() {
 		Bomber* b1 = new Bomber(texturaBomber1);
 		Bomber* b2 = new Bomber(texturaBomber2);
 		
+		//Muros Metalicos superior 
+		for (int i = 0; i < 64; i++) {
+			MuroMetalico* mm = new MuroMetalico(texturaMuroMetalico);
+			mm->setImagenX(800);
+			mm->setImagenY(0);
+			mm->setAlto(30);
+			mm->setAncho(30);
 
+			mm = nullptr
+		}
 
 
 		b1->setImagenX(3);
